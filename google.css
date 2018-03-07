@@ -10,21 +10,25 @@ header {width: 100%;}
 
 ul {list-style: none;}
 
+* {
+  text-decoration: none;
+}
+
 /* Navigation */
 
 #nav_bar_right  {
   float: right;
-  text-decoration: none;
   font-size: 14px;
+  color: #1111;
 
 }
 
 #nav_bar_left {
   float:left;
-  text-decoration: none;
   position: relative;
   right: 35px;
   font-size: 14px;
+  color: #1111;
 }
 
 nav li {
@@ -69,31 +73,31 @@ nav li {
 }
 
 footer {
-  background: #222;
-  padding-bottom: 0;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
   width: 100%;
-
-
-}
-
-footer ul li {
-  display: inline;
-  font-size: 14px;
-  padding: 13px;
+  background-color: #1111;
+  border-top: 0.15px solid rgba(0, 0, 0, 0.1);
+  opacity: .75;
 }
 
 .footer_left {
   float: left;
   position: relative;
-  top: 280px;
-  right: 35px;
-
-
+  word-spacing: 10px;
+  right: 25px;
+  color: #1111;
 }
 
 .footer_right {
-  float: right;
+  float:right;
+  word-spacing: 10px;
   position: relative;
-  top: 280px;
+  right: 10px;
+  color: #1111;
+}
 
+footer li {
+  display: inline-block;
 }
